@@ -1,0 +1,22 @@
+                    DATA TYPES (Part 1)
+Numbers:
+    Integers
+    Floats
+    Complex
+Strings
+Booleans
+    True/False
+
+
+Declaring a Variable
+    Very simple
+        Variable = value
+    Examples:
+        name = "JD" <- This is a string
+        age = 82 <- This is an integer
+        rating = 4.8 <- This is a float
+        is_awesome = True <- This is a boolean
+
+
+
+

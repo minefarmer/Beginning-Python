@@ -1,0 +1,31 @@
+>>> var = input()
+Hello, World!
+>>> var
+'Hello, World!'
+>>> var = input()
+25
+>>> var
+'25'
+>>> var = int(input())
+25
+>>> var
+25
+>>> var = float(input())
+25
+>>> var
+25.0
+>>> var = int(input())
+Hello
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+ValueError: invalid literal for int() with base 10: 'Hello'
+>>> var = float(input())
+25
+>>> var
+25.0
+>>> var = int(input())
+25.7
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+ValueError: invalid literal for int() with base 10: '25.7'
+>>> 

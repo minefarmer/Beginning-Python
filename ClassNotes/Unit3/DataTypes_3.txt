@@ -1,0 +1,58 @@
+Lists
+    Also called "arrays" in other programming languages.
+    Strings are a list of characters, and therefore share a lot of similar functions.
+
+    Declaration:
+        list_a = [] # <- Creates an empty list.
+        list_b = [1, "a", 2.5, True]  # <- It can contain any type of values.
+        list_c = [1, "a",2.5, True, [2, "b", 3.6, False]]  # A list inside a list.
+
+
+
+
+Tuples
+    No real equivalents in other programming languages.
+    Because they are also lists, they share the same functions.
+    The items in the collection are immutable, meaning that I cannot change them.
+
+    Declaration:
+        tuple_a = ()  # Creates an empty tuple.
+        list_b = [1, "a", 2.5, True]  # <- It can contain any type of values.
+        list_c = [1, "a",2.5, True, [2, "b", 3.6, False]]  # A tuple inside a tuple.
+    Once I have inserted a value inside a tuple, I cannot change it!
+          
+
+
+
+Dictionaries
+    Also called "objects" in some other programming languages.
+    The items have a key-to-value relationship - or word-to-definition type of relationship.
+    The value of the key can be changed.
+
+    Declaration:
+        dict_a = {}  # This creates an empty dictionary.
+        dict_a = {1:"one", "two":2}  # Keys can be integers or strings, (they cannot be booleans or other types of variables) and values can be any data type.
+        #  Values can be any data type.
+
+
+
+
+Some Important Notes:
+    Lists, tuples, and dictionaries finction by indexing, meaning that they are attributed a number.
+    Lists and tuples are zero based index.
+    The index of a dictionary is it's key.
+    The key can only be an integer or a string.
+
+
+
+
+Indexes
+    Example:
+        list_a = [1, 2.5, "hello", True, [2, 3.5, "word", False]]
+        print(list_a[2])  # Hello
+        print(list_a[1:3])  # 2.5, "hello"
+        print(list_a[2:])  # "hello", True, [2, 3.5, "word", False]
+        print(list_a[:3])  $ 1, 2.5, "hello"
+        print(list_a[1:4:2])  # 2.5, True,
+
+    The examples also apply on strings and to tuples.
