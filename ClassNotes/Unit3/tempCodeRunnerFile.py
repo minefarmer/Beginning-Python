@@ -1,1 +1,1 @@
-list_a
+    print( a-b )  # Subtraction
