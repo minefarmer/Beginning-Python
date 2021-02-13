@@ -1,0 +1,12 @@
+>>> my_age = 28
+>>> my_age
+28
+>>> if my_age >= 21:
+...     print("You're mature")
+...
+You're mature
+>>> if my_age >= 21:
+...     print('You\'re mature')
+...
+You're mature
+>>>

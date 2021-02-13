@@ -1,0 +1,29 @@
+>>> my_age = 28
+>>> my_age
+28
+>>> if my_age >= 21:
+...     print("You're mature")
+...
+You're mature
+>>> if my_age >= 21:
+...     print('You\'re mature')
+...
+You're mature
+>>>
+my_age = 12
+>>> if my_age >= 21:
+...     print("You're mature")
+...
+>>> else:
+  File "<stdin>", line 1
+    else:
+    ^
+SyntaxError: invalid syntax
+>>> my_age = 12
+>>> if my_age >= 21:
+...     print("You're mature")
+... else:
+...     print("You're too young")
+...
+You're too young
+>>>
