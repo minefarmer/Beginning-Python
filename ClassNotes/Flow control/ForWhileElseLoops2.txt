@@ -18,3 +18,145 @@ You're mature
 ...
 You're too young
 >>>
+
+
+                    Part 2
+
+>>> my_age = 82
+>>> my_age
+82
+>>> if my_age >= 21:
+...     print("You're mature")
+...     if my_age >= 18:
+...             print("Your an adult")
+... else:
+...     print("You're too young")
+... 
+You're mature
+Your an adult
+    {% comment %} It p[rints both print statement because it first evaluates the age and then  evaluates both statements and since they are both true python prints both statements.{% endcomment %}
+
+
+                    While loops
+>>> count = 0
+>>> count
+0
+>>> While (expression):
+        statement
+
+
+>>> count = 0
+>>> while count <= 5:
+...     print(count)
+...     count += 1
+... 
+0
+1
+2
+3
+4
+5
+>>> 
+>>> 
+>>> while count <= 5:
+...     print(count)
+...     count += 1
+... else:
+...     print("count is higher than 5")
+... 
+count is higher than 5
+
+
+
+>>> 
+>>> count = 0
+>>> while count <= 5:
+...     print(count)
+...     count += 1
+... else:
+...     print("Count is greater than 5")
+... 
+0
+1
+2
+3
+4
+5
+Count is greater than 5
+>>> 
+
+
+                    For Loops
+For loops are best fit when I use squences. They include tuples, dictionaries, strings and lists.
+list_a = [1, 2, 3, 4, 5]
+for num in list_a:  # num is a variable that i create specifically for the for_loop.
+...     print(num)
+... 
+1
+2
+3
+4
+5
+
+
+
+>>> str_a = "Hello, World!"
+>>> for letter in str_a:
+...     print(letter)
+... 
+H
+e
+l
+l
+o
+,
+ 
+W
+o
+r
+l
+d
+!
+>>> 
+
+
+>>> 
+>>> 
+>>> tuple_a = (1, 2, "Hello", 4.0, True)
+>>> for elem in tuple_a:
+...     print(elem)
+... 
+1
+2
+Hello
+4.0
+True
+>>> 
+
+
+                    Break and Continue
+
+>>> list_a = [1, 2, 3, 4, 5]
+>>> for num in list_a:
+...     if num == 3:
+...             break
+...     print(num)
+... 
+1
+2
+
+
+
+>>> 
+>>> for num in list_a:
+...     if num == 3:
+...             continue
+...     print(num)
+... 
+1
+2
+4
+5
+>>> 
+
+
