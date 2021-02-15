@@ -1,3 +1,51 @@
                     FUNCTIONS
+Functions are a block of code that contains information about their operation.
+They help me  alot by allowing me to not have to type the same code over and over.
+They are also known as methods in some other programming languages.
+They are reccognizable by the keyword def ('for define'), some name of my choice, and a set of parenthesis.
+Once a function is defined, you can call (or invoke) them by typing the name of that function.
+
+Example:
+    # Function definition
+    def print_hello():
+        print( 'Hello, Everyone!' )
+    # Function call.
+    print_hello()
+
+Inside the parentheses, you can insert pre-defined variables called arguments.
+    Example:
+        def print_hello(name):
+
+I can even create a function with a default parameter.
+Example:
+    def print_hello(name="RM"):
+        print( 'Hello', name, '!')
+    #Function call
+    print_hello()  # Will print 'Hello RM!' if left empty.
+    print_hello('Rich')  # Will print 'Hello Rich' if not empty.
 
 
+
+
+arguments, if used, must be in the correct order when the function is called.
+Example:
+    def intro(name, idn):
+    print( 'Hello', name, '. Your ID is:', idn)
+
+I can even create a function with a variable amount of arguments.
+    Useful when I'm passing more arguments than I initially intended to  -- meaning that I don't initially have a clear qmount of arguments for your function yet.
+Example:
+    def print_nums(num, *more_num):
+        print(num)
+        for extra in more_num:  # more_num is a tuple, and therefore it can be left empty. This is why passing only the first arument will not print the other numbers.
+            print(extra)
+    nums(10)   # Will only print 10
+    nums(10,20,30,40,50)   # Will print all the numbers
+
+
+Best thing to remenber with functions:
+    Try to keep it sinple.
+    Functions only need to do one thing, and one thing only.
+        If I need more things done, create another function to do it.
+    If I have more arguments, make sure I use them in my function definition; and make sure I call my functions properly, with the right amount of arguments.
+        Order of arguments matters!

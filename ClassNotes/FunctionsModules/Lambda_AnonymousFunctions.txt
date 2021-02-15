@@ -1,0 +1,10 @@
+                    Anonymous Functions
+    Useful when you want a quick result from a very simple command without having to go through the process of creating a real function.
+    They are, however, called like a function.
+    They are recognized by the keyword lambda.
+    They can have arguments --but the less the better.
+Example:
+    say_hi = lambda name:Print('Hello',name)
+    sum = lambda x, y: return x + y
+    say_hi('RM')  # No need to use the print() function, because the say_hi() already prints it.
+    pr(sum(3,5))  # Using print() because return gives the result; it doesn't print it.

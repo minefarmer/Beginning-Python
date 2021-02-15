@@ -1,0 +1,21 @@
+                    Modules
+Modules are files that contain Python code.
+    These modules can define functions, classes, variables, or other runnable code.
+Three ways to import modules into my code:
+    'import' statements
+    'from ... import' statement
+    'from ... import *' statement
+
+The 'import' statement allows me to import all classes, functions, and variables  from the imported Python file.
+Example:
+    import hello # Imported file would be 'hello.py' but I can omit the .py extension.
+    hello.print_hello()  # This is how I access the import function.
+
+The 'from ... import' statement allows you to import specific classes, functions, and variables from the imported Python file.
+Example:
+    from hello import print_hello  # Imported file would be 'hello.py'
+    print_hello()  # I no longer need to call the module any more.
+
+The'from ... import *' statement allows me to import everything from the imported Python file(module).
+    from hello import *  # Imported file would be 'hello.py'.
+It is not recommended to use it (the *(wild card)) Only use sparringly.

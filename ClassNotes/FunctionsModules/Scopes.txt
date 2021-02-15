@@ -1,0 +1,13 @@
+There are two types of scopes.
+    Local
+        Can be accessed only through the block of code through which it was defined.
+    Global
+        Can be accessed from anywhere within the code.
+Example:
+    total = 0
+    def add_num(num_1, num_2):
+        total = num_1 + num_2
+        return total
+    print(total)  # Prints the 'global' total.
+    print(add_num(3,2))  # Prints the 'local' total.
+    
